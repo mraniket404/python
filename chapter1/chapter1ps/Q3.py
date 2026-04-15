@@ -1,5 +1,5 @@
 import os
-
+directrypath='/'
 # Current directory की content दिखाएं
-content = os.listdir()
+content = os.listdir(directrypath)
 print(content)
